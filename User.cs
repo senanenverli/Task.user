@@ -21,7 +21,7 @@ namespace ConsoleApp13
             
             for(int i = 0; i < Password.Length; i++)
             {
-                if (password.Length <= 8 && char.IsUpper((char)i) && char.IsLower((char)i) && char.IsDigit((char)i))
+                if (password.Length >= 8 && char.IsUpper((char)i) && char.IsLower((char)i) && char.IsDigit((char)i))
                 {
                     return true;
                 }
